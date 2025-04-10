@@ -1,0 +1,144 @@
+.job-card-link {
+  text-decoration: none;
+  color: #f1f5f9;
+}
+
+.job-card {
+  padding-left: 0px;
+  padding: 30px;
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+.job-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .job-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.job-card-title {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.job-card-rating-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.job-card-rating {
+  font-size: 20px;
+  margin: 0px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.location-package-employment-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.location-employment-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-card-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.job-card-location-icon {
+  margin-right: 10px;
+  color: white;
+}
+
+.job-card-location {
+  color: white;
+  font-size: 16px;
+}
+
+.job-card-employment-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-card-employment-icon {
+  color: white;
+  margin-right: 10px;
+}
+
+.job-card-employment {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.job-card-package {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.horizontal-line {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+  margin-bottom: 10px;
+}
+
+.job-card-description-heading {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.job-card-description {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media only screen and (min-width: 768px) {
+  .job-card-description-heading {
+    font-size: 30px;
+  }
+
+  .job-card-description {
+    font-size: 20px;
+  }
+}
